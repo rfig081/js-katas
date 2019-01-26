@@ -17,7 +17,7 @@
 
 
 //-----------------------------------------------
-//      First Solution (While Loop)
+//         First Solution (While Loop)
 //-----------------------------------------------
 // By: Me(rfig081)
 function isOpposite(s1,s2) {
@@ -55,7 +55,7 @@ function isOpposite(s1,s2) {
 
 
 //-----------------------------------------------
-//      First Solution (For Loop)
+//          First Solution (For Loop)
 //-----------------------------------------------
 // By: Me(rfig081)
 function isOpposite(s1,s2) {

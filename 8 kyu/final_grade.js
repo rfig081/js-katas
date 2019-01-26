@@ -18,7 +18,7 @@
 
 
 //-----------------------------------------------
-//      First Solution (If Statements)
+//       First Solution (If Statements)
 //-----------------------------------------------
 // By: Me(rfig081)
 function finalGrade(exam, projects) {
@@ -32,4 +32,27 @@ function finalGrade(exam, projects) {
         return 75;
     }
     return 0;
+}
+
+
+
+//-----------------------------------------------
+//              Switch Solution
+//-----------------------------------------------
+// By: Me(rfig081)
+function finalGrade(exam, projects) {
+    switch (true) {
+         case (exam > 90 || projects > 10):
+            return 100
+            break;
+         case (exam > 75 && projects >= 5):
+            return 90;
+            break;
+         case (exam > 50 && projects >= 2):
+            return 75
+            break;
+         default:
+            return 0;
+            break;         
+  }
 }
