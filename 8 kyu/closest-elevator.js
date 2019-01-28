@@ -30,7 +30,7 @@
 
 
 //-----------------------------------------------
-//      First Solution (For Loop)
+//      First Solution ()
 //-----------------------------------------------
 // By: Me(rfig081) & Zeroth
 function elevator(left, right, call) {   
